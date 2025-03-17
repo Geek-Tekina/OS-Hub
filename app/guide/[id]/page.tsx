@@ -244,7 +244,7 @@ export default function GuideDetailPage({
                 height={80}
                 className="rounded-lg shadow-md"
               />
-              <program.icon className="h-8 w-8 text-primary" />
+              {/* <program.icon className="h-8 w-8 text-primary" /> */}
               <h1 className="text-3xl font-bold">{program.title}</h1>
             </div>
 

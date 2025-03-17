@@ -31,6 +31,7 @@ const programs = [
     icon: Code,
     link: "/programs/gsoc",
     tags: ["Students", "Coding", "Mentorship"],
+    logo: "https://upload.wikimedia.org/wikipedia/commons/thumb/0/08/GSoC_logo.svg/1200px-GSoC_logo.svg.png",
   },
   {
     id: "Outreachy",
@@ -42,6 +43,7 @@ const programs = [
     icon: Heart,
     link: "/programs/outreachy",
     tags: ["Diversity", "Internship", "Remote"],
+    logo: "https://upload.wikimedia.org/wikipedia/commons/thumb/3/36/Outreachy-bot-avatar.svg/1646px-Outreachy-bot-avatar.svg.png",
   },
   {
     id: "Hacktoberfest",
@@ -53,6 +55,7 @@ const programs = [
     icon: Gift,
     link: "/programs/hacktoberfest",
     tags: ["Beginners", "Open Source", "Swag"],
+    logo: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSOZlh8NgUoArqNKUxE-vtN4jKXQZpuG3L_zw&s",
   },
   {
     id: "MLHFellowship",
@@ -64,6 +67,7 @@ const programs = [
     icon: Users,
     link: "/programs/mlh-fellowship",
     tags: ["Students", "Remote", "Fellowship"],
+    logo: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQWneh8QgboyXva8BcK3b5uH8u1X5cUxUD4gA&s",
   },
   {
     id: "SeasonOfKDE",
@@ -75,6 +79,7 @@ const programs = [
     icon: Globe,
     link: "/programs/season-of-kde",
     tags: ["KDE", "Open Source", "Students"],
+    logo: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQIiyFPo1YwW5tIYfFN1aivCLUV3A2CyAO6EA&s",
   },
   {
     id: "LFXMentorship",
@@ -86,6 +91,7 @@ const programs = [
     icon: BookOpen,
     link: "/programs/lfx-mentorship",
     tags: ["Linux", "Mentorship", "Open Source"],
+    logo: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTQD0pUBzhqaGKqZMbpzQZI0X-N6kCekFPj2Q&s",
   },
   {
     id: "SeasonOfDocs",
@@ -97,6 +103,7 @@ const programs = [
     icon: Trophy,
     link: "/programs/season-of-docs",
     tags: ["Documentation", "Technical Writing"],
+    logo: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSU2zg1DzIUfrz5hPALFQ8aMVmA84Ofj0cMnw&s",
   },
   {
     id: "FOSSASIA",
@@ -108,6 +115,7 @@ const programs = [
     icon: Rocket,
     link: "/programs/fossasia",
     tags: ["FOSS", "Asia", "Students"],
+    logo: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT0GGkpd-Xtao-2NlFCur92Y5ht-7n3To4uwQ&s",
   },
   {
     id: "GoogleCodeIn",
@@ -119,6 +127,7 @@ const programs = [
     icon: Code,
     link: "/programs/google-code-in",
     tags: ["Pre-university", "Coding", "Contest"],
+    logo: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRkscszxS71BsoyQ_4e2NY79LvFkJlAmzdlWw&s",
   },
   {
     id: "RailsGirlsSummerOfCode",
@@ -130,6 +139,7 @@ const programs = [
     icon: Heart,
     link: "/programs/rails-girls-summer-of-code",
     tags: ["Diversity", "Ruby on Rails", "Fellowship"],
+    logo: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRQr5IhCF5wIlDGEL6_nOKL7hiihRfFumHSJA&s",
   },
   {
     id: "OpenRoberta",
@@ -141,6 +151,7 @@ const programs = [
     icon: Bot,
     link: "/programs/open-roberta",
     tags: ["Education", "Robotics", "Children"],
+    logo: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTocdHak55os6MVnzeAAdtaS_aZIcIWyLYg_A&s",
   },
   {
     id: "Curriki",
@@ -152,6 +163,7 @@ const programs = [
     icon: Book,
     link: "/programs/curriki",
     tags: ["Education", "K-12", "Open Educational Resources"],
+    logo: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQHC59DHdCre8JMpBdGXWdFxC1N2ahcy5X6sQ&s",
   },
   {
     id: "MozillaOpenLeaders",
@@ -163,6 +175,7 @@ const programs = [
     icon: Users,
     link: "/programs/mozilla-open-leaders",
     tags: ["Leadership", "Open Source", "Mentorship"],
+    logo: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRWTKWsLIo1o6luOxFS7m3n504y_dVYyLjhug&s",
   },
   {
     id: "ProcessingFoundationFellowships",
@@ -174,6 +187,7 @@ const programs = [
     icon: Paintbrush,
     link: "/programs/processing-foundation-fellowships",
     tags: ["Art", "Coding", "Education"],
+    logo: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ4IDeecXbBT_jMcrlAy-IQg_jrbXHCoeeFtQ&s",
   },
   {
     id: "RedHatOpenSourceContest",
@@ -185,6 +199,7 @@ const programs = [
     icon: ChefHat,
     link: "/programs/red-hat-open-source-contest",
     tags: ["Students", "Open Source", "Mentorship"],
+    logo: "https://miro.medium.com/v2/resize:fit:928/0*tp9JdbF_30AQYnTY.png",
   },
   {
     id: "LinuxFoundationTrainingScholarships",
@@ -196,6 +211,7 @@ const programs = [
     icon: Laptop,
     link: "/programs/linux-foundation-training-scholarships",
     tags: ["Linux", "Training"],
+    logo: "https://lcom.static.linuxfound.org/sites/lcom/files/lift-001.png",
   },
 ];
 
@@ -221,8 +237,12 @@ export default function GuidePage() {
             >
               <div className="p-6">
                 <div className="flex items-center gap-4 mb-4">
-                  <div className="p-2 bg-primary/10 rounded-lg">
-                    <program.icon className="h-6 w-6 text-primary" />
+                  <div className="h-16 w-16 flex justify-center items-center">
+                    <img
+                      src={program.logo}
+                      alt={program.title}
+                      className="max-h-full max-w-full object-contain"
+                    />
                   </div>
                   <h3 className="text-xl font-semibold">{program.title}</h3>
                 </div>
